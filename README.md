@@ -1,5 +1,5 @@
-# SQL-ASSIGNMENT-ENTRI
-ASSIGNMENT NUMBER 1 DDL COMMANDS
+### SQL-ASSIGNMENT-ENTRI
+## ASSIGNMENT NUMBER 1 DDL COMMANDS
 
 Create a database named School and perform all the DDL commands(CREATE, ALTER, DROP, RENAME, TRUNCATE) for the table named STUDENT with fields: Roll_No Name Marks Grade 
 
@@ -16,4 +16,39 @@ Create data on your own based on the given columns
  (5) Delete all rows from the table.
 
  (6) Remove the table from the database.
+
+ ## SQL ASSIGNMENT 2
+
+Create a database called “Sales” and create a new table named “Orders” in the Sales database with columns: (Order_Id, Customer_name, Product_Category, Ordered_item, Contact_No).
+Use constraints: Primary Key Unique Not Null 
+
+1. Add a new column named “order_quantity” to the orders table. 
+
+2. Rename the orders table to the sales_orders table. 
+
+3. Insert 10 rows into the sales_orders table.
+
+4. Retrieve customer_name and Ordered_Item from the sales_orders table. 
+
+5. Use the update command to change the name of the product for any row. 
+
+6. Delete the sales_orders table from the database.
+
+ ## ASSIGNMENT 3 SQL
+
+Create a table named Managers with fields : Manager_Id First_name Last_Name DOB Age ->Use check constraint Last_update Gender Department Salary -> NOT NULL
+
+ 1. Insert 10 rows. 
+
+2. Write a query that retrieves the name and date of birth of the manager with Manager_Id 1. 
+
+3. Write a query to display the annual income of all managers. 
+
+4. Write a query to display records of all managers except ‘Aaliya’.
+
+ 5. Write a query to display details of managers whose department is IT and earns more than 25000 per month. 
+
+6. Write a query to display details of managers whose salary is between 10000 and 35000.
+
+
 
