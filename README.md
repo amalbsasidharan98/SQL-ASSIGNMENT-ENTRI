@@ -74,7 +74,7 @@ Insert 10 rows into both tables, as given below.
 (8)Find all persons not from the countries 'India' and 'Australia'.
 
 
-##ASSIGNMENT 5-Sorting and Grouping data
+## ASSIGNMENT 5-Sorting and Grouping data
 Insert 10 rows into both tables, as given below. Create a table named Country with fields: Id Country_name Population Area Create another table named Persons with fields: Id Fname Lname Population Rating Country_Id Country_name 
  1. Write an SQL query to print the first three characters of Country_name from the Country table.
  2.  Write an SQL query to concatenate first name and last name from Persons table.
@@ -89,6 +89,18 @@ Insert 10 rows into both tables, as given below. Create a table named Country wi
  11. Find the total population for each country in the Persons table.
  12. Find countries in the Persons table with a total population greater than 50,000
  13. List the total number of persons and average rating for each country, but only for countries with more than 2 persons, ordered by the average rating in ascending order.
+
+## ASSIGNMENT 6 SQL- UNIONS AND JOINS
+
+Consider the Country table and Persons table that you created earlier and perform the following:
+
+ (1)Perform inner join, Left join, and Right join on the tables. 
+
+(2)List all distinct country names from both the Country and Persons tables.
+
+ (3)List all country names from both the Country and Persons tables, including duplicates.
+
+ (4)Round the ratings of all persons to the nearest integer in the Persons table
 
 
 
